@@ -88,7 +88,30 @@ public class Test {
 //		for(int i = 0;i<st.length;i++) {
 //			System.out.println(st[i]);
 //		}
+//		int[]arrint= new int[] {1,2,3};
+//		int[] arrinte = {1,2,3};
+//		int [] arrinta = new int[3];
+//		arrinta[0] = 1;
+//		arrinta[1] = 2;
+//		arrinta[2] = 3;
+//		arrinta[1] = 5;
+////		System.out.println(arrint.equals(arrinte));
+//		for (int i =0;i<arrinta.length;i++) {
+//			System.out.println(arrinta[i]);
+//		}
 		
+		String str = new String("str");
+		String strr = "str";
+		System.out.println(strr.length());
+		String[] sttr = new String [6];
+		sttr[0] = "s";
+		System.out.println(sttr[0].length());
+		sttr[1] = "t";
+		sttr[2] = "r";
+		System.out.println(sttr.length);
+		for (int i =0;i<sttr.length;i++) {
+			System.out.println(sttr[i]);
+		}
 
 	}
 

@@ -29,6 +29,10 @@ public class Son extends Father {
 		System.out.println(s.s);
 		s.Baba();
 		s.erzi();
+		Son le = new Son();
+		le.setEyes("two");
+		le.nose = "big";
+		le.faba();
 	}
 
 }
